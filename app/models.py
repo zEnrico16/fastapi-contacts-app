@@ -1,7 +1,8 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
-# Não esquecer de importar a base do database.py e apagar pois senão vai dar conflito
 from sqlalchemy.orm import relationship
+# Não esquecer de importar a base do database.py e apagar pois senão vai dar conflito
+from database import Base
 
 # Base = declarative_base() -- Já esta declarada no models.py
 
